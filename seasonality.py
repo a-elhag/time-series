@@ -33,6 +33,10 @@ plt.plot(data_noseason, label="No Season")
 plt.legend()
 plt.show()
 
+plt.plot(np.tile(data_period_index, (3, 1)))
+plt.show()
+
+
 
 
 
